@@ -13,4 +13,4 @@ Most scripts in this repository are utility scripts, except for `Training.py`, w
 
 ## Dataset
 
-The dataset used to train this network is not provided in this repository, but is [available freely on github](https://github.com/CyprienGille/flickr-compression-dataset).
+The dataset used to train this network is not provided in this repository, but is [freely available on github](https://github.com/CyprienGille/flickr-compression-dataset).
