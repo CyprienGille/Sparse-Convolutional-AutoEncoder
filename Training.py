@@ -17,9 +17,9 @@ import torch
 import torch.optim as optim
 from torch.utils.data import DataLoader
 
-from data_loader import ImageFolder720p, FlickrFolder
+from functions.data_loader import ImageFolder720p, FlickrFolder
 
-from logger import Logger
+from functions.logger import Logger
 
 from models.cae_32x32x32_zero_pad_comp import CAE
 from models.masked_models import Masked_CAE
@@ -29,7 +29,7 @@ import util.reproducibility as reproducible
 
 from recorders.recorder import Simple_Recorder
 import projection.projection as proj
-import retrain_model
+import functions.retrain_model as retrain_model
 
 logger = Logger(__name__, colorize=True)
 
