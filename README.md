@@ -9,7 +9,7 @@ This is the code from :
 
 ## Scripts
 
-Most scripts in this repository are utility scripts, except for `Training.py`, which should be executed to train a model.
+Most scripts in this repository are utility scripts, except for `training.py`, which should be executed to train a model.
 
 ## Dataset
 

@@ -1,3 +1,12 @@
+"""
+Script to train a CAE from scratch
+
+One should pay attention to:
+ - (l.144-155) the experiment's nickname, which will inform the results folder name
+ - (l.483-523) the experiment's parameters, namely the number of epochs and the data directory
+ - (l.544-545) the projections and projections parameters to use for the second descent
+"""
+
 #%%
 import os
 
@@ -472,7 +481,7 @@ if __name__ == "__main__":
 
     if cfg["run"]:
 
-        cfg["num_epochs"] = 100  # set
+        cfg["num_epochs"] = 100
 
         cfg["resume"] = False
         cfg["checkpoint"] = None
